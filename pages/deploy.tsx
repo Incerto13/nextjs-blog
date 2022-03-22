@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
-const Home: NextPage = () => {
+const Deploy: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -15,12 +15,10 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Deploy Page
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
         </p>
 
         <div className={styles.grid}>
@@ -29,7 +27,8 @@ const Home: NextPage = () => {
             <p>Find in-depth information about Next.js features and API.</p>
           </a></Link>
 
-          <Link href="/learn"><a className={styles.card}>
+
+        <Link href="/learn"><a className={styles.card}>
             <h2>Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a></Link>
@@ -68,4 +67,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Deploy
